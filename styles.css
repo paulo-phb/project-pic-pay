@@ -22,7 +22,7 @@ body {
 button {
 	font-weight: bold;
 	font-size: 16px;
-	padding: 15px 30px;
+	padding: 15px 35px;
 	border-radius: 10px;
 	border: none;
 	cursor: pointer;
@@ -37,7 +37,6 @@ button {
 
 .button-green:hover {
 	background: #1FAB61;
-	color: #eee;
 }
 
 /*Header*/
@@ -126,10 +125,49 @@ header button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 14px 35px;
 	gap: 15px;
 }
 
 #text-container-hero img {
 	width: 14px;
+}
+
+/*Card section*/
+#card-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+	background: #008E43;
+}
+
+#card-section img {
+	margin-bottom: 60px;
+	width: 400px;
+}
+
+#text-container-card {
+	margin-top: 50px;	
+	color: #fff;
+	width: 750px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 30px;
+}
+
+#text-container-card p {
+	line-height: 30px;
+	font-size: 18px;
+}
+
+#text-container-card h3 {
+	font-weight: bold;
+	margin-bottom: -10px;
+	font-size: 50px;
+}
+
+#text-container-card button {
+	border: 2px solid #fff;
 }
