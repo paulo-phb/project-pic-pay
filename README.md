@@ -3,3 +3,6 @@ Nesse projeto tento colocar minha habilidades em HTML e CSS, adquiridas até o m
 
 # Ferramentas
 HTML e CSS puro
+
+# Acessar a página do projeto
+https://paulo-phb.github.io/project-pic-pay/
